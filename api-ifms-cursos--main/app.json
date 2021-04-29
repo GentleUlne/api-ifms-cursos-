@@ -1,0 +1,126 @@
+
+
+
+
+
+
+{
+
+
+
+
+
+  "tipoCurso":[
+    {
+      "id":1,
+      "nivel_de_ensino":"Superior"
+    },
+    {
+      "id":2,
+      "nivel_de_ensino":"Tecnico Integrado"
+    },
+    {
+      "id":3,
+      "nivel_de_ensino":"Graduação"
+    }
+   ,
+    {
+      "id":4,
+      "nivel_de_ensino":"Técnico Subsequente"
+    }
+    
+  ],
+
+
+
+
+
+
+
+
+
+
+
+
+  "Curso": [ {"Propriedade" : "Descrição",
+    "id" :	1,
+"nome_curso":	"Tecnologo em Analise e Desenvolvimento de Sistemas",
+"nivel_de_ensino" :  "Superior", 
+"duração":	 "3 anos (6 semestres)",
+"município":	"Navirai" } ,
+
+{"Propriedade" : "Descrição",
+  "id" :	2,
+"nome_curso":	"Eletrotecnica",
+"nivel_de_ensino" :  "Tecnico Integrado", 
+"duração":	 "3 anos (6 semestres)",
+"município":	"Campo Grande" },
+
+{"Propriedade" : "Descrição",
+  "id" :	3,
+"nome_curso":	"Informática",
+"nivel_de_ensino" :  "Tecnico Integrado", 
+"duração":	 "1 ano e meio (3 semestres)",
+"município":	"Campo Grande" },
+
+
+{"Propriedade" : "Descrição",
+  "id" :	4,
+"nome_curso":	"mecânica",
+"nivel_de_ensino" :  "Tecnico Integrado", 
+"duração":	 "3 anos (6 semestres)",
+"município":	"Campo Grande" },
+
+ {"Propriedade" : "Descrição",
+  "id" :	5,
+"nome_curso":	"Metalurgica",
+"nivel_de_ensino" :  "Técnico Integrado", 
+"duração":	 "3 anos (6 semestres)",
+"município":	"Campo Grande" },
+
+ {"Propriedade" : "Descrição",
+  "id" :	6,
+"nome_curso":	"Sistemas para internet",
+"nivel_de_ensino" :  "Graduação", 
+"duração":	 "3 anos (6 semestres)",
+"município":	"Coxim" },
+
+ {"Propriedade" : "Descrição",
+  "id" :	7,
+"nome_curso":	"Engenharia Eletrica",
+"nivel_de_ensino" :  "Graduação", 
+"duração":	 "5 anos (10 semestres)",
+"município":	"Campo Grande" },
+
+ {"Propriedade" : "Descrição",
+  "id" :	8,
+"nome_curso":	"Docência para educação profissional,científica e tecnológica",
+"nivel_de_ensino" :  "Pós-Graduação", 
+"duração":	 "18 a 24 meses",
+"município":	"Jardim" },
+
+ {"Propriedade" : "Descrição",
+  "id" :	9,
+"nome_curso":	"Agropecuária",
+"nivel_de_ensino" :  "Técnico Integrado", 
+"duração":	 "3 anos (6 semestres)",
+"município":	"Nova Andradina" },
+
+ {"Propriedade" : "Descrição",
+  "id" :	10,
+"nome_curso":	"Zootecnia",
+"nivel_de_ensino" :  "Técnico Subsequente", 
+"duração":	 "1,5 ano (3 semestres)",
+"município":	"Nova Andradina" }
+
+
+
+
+]
+  
+  
+}
+ 
+  
+
+
