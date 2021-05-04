@@ -28,6 +28,22 @@
 
 
 
+
+
+  function rendercardsNotfound() {
+   
+    if  ( apiData.innerHTML==""){
+      
+      apiData.innerHTML += 
+      ` 
+        <div class ="card m-2"  style="width:522px height:522px"  > 
+        <section class="card-body"><h2>Nenhum resultado encontrado para: </h2>
+        <h2 style = "color : #c32d52"   > &nbsp &nbsp &nbsp &nbsp    ${input_search.value} </h2>
+</section>       </div>      </br>   `     
+    }  
+        } 
+
+
 function showSpinner(isShow=false){
   if(isShow){
     spinner.style.display="block"
@@ -59,11 +75,25 @@ function showSpinner(isShow=false){
            apiData.innerHTML=""
            showSpinner(true)
            const response   = await getData(`Curso?q=${query}`)
-       
+           console.log(" aqeqweqweasdqe",response)
            const CursoList  = response.data
           
            showSpinner(false)
-           rendercards(CursoList)}
+
+           rendercards(CursoList)
+          
+          rendercardsNotfound()
+          
+           
+          
+           
+          
+        
+          
+          
+          
+          
+          }
   
    
     
